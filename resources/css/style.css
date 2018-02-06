@@ -1,0 +1,35 @@
+	
+	/* Universal Styles */
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+
+header,
+footer,
+.banner p {
+	background-color: black;
+}
+
+	/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+header span {
+	font-size: 1rem;
+	padding: 0.66rem 0;
+}
+
+header img {
+	height: 1.5rem;
+	padding-left: 0.5rem;
+	padding-right: 1rem;
+}
