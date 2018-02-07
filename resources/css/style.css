@@ -142,3 +142,20 @@ main {
  	text-align: left;
  	height: 5rem;
  }
+
+ 	/* ---- Media Queries ---- */
+
+
+ 	/* Tablet Size */
+
+ @media only screen and (max-width: 1024px) {
+
+ }
+
+ 	/* Phone Size */
+
+ @media only screen and (max-width: 470px) {
+
+ }
+
+ 
