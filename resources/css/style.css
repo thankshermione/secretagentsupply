@@ -18,6 +18,11 @@ footer,
 	background-color: black;
 }
 
+.inside {
+	width: 960px;
+	margin: 0 auto;
+}
+
 	/* Header */
 
 header {
@@ -47,11 +52,10 @@ main {
  	/* Banner */
 
 .banner {
-	background-image: url("../images/moto.jpeg");
+	background: url("../images/moto.jpeg") center no-repeat;
+	background-size: cover;
 	height: 25rem;
 	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 .title {
@@ -87,7 +91,7 @@ main {
  	display: inline-flex;
  	justify-content: space-between;
  	flex-wrap: wrap;
- 	width: 960px;
+ 	max-width: 960px;
  }
 
  .product {
