@@ -25,14 +25,15 @@ footer,
 
 	/* Header */
 
-header {
+header .inside {
 	display: flex;
 	align-items: center;
+	padding: 0.66rem 0;
 }
 
 header span {
 	font-size: 1rem;
-	padding: 0.66rem 0;
+	/*padding: 0.66rem 0;*/
 }
 
 header img {
@@ -46,7 +47,6 @@ header img {
 main {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
  	/* Banner */
@@ -76,19 +76,22 @@ main {
 
  	/* Navigation Bar */
 
- nav {
- 	width: 100%;
+ nav .inside {
  	display: flex;
  	justify-content: space-between;
+ }
+
+ nav {
  	background-color: firebrick;
  	padding-top: 0.75rem;
  	padding-bottom: 0.75rem;
+ 	width: 100%;
  }
 
  	/* Homepage Content */
 
- .homepage {
- 	display: inline-flex;
+ .homepage .inside {
+ 	display: flex;
  	justify-content: space-between;
  	flex-wrap: wrap;
  	max-width: 960px;
