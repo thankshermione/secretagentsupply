@@ -12,7 +12,9 @@ body {
 
 header,
 footer,
-.title {
+.title,
+.product h4,
+.infobox h4 {
 	background-color: black;
 }
 
@@ -105,7 +107,6 @@ main {
  }
 
  .product h4 {
- 	background-color: black;
  	text-align: center;
  	padding: 0.5rem 0;
  }
@@ -116,7 +117,6 @@ main {
  }
 
 .infobox h4 {
-	background-color: black;
 	padding: 1rem 0 1rem 2rem;
 
 }
