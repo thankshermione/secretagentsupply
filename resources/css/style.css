@@ -173,6 +173,10 @@ main {
 	.extratablet {
 	 	display: none;
 	}
+
+	.inside {
+		width: 100%;
+	}
 }
 
  	/* Phone Size */
@@ -185,7 +189,7 @@ main {
 
 	.title {
 	margin-top: 10rem;
-	width: 100%;
+	width: inherit;
 	font-weight: bold;
 	padding: 1rem 0 1rem 2rem;
 	}
@@ -225,6 +229,13 @@ main {
 
 	footer {
 		text-align: center;
+	}
+
+	body {
+		overflow-y: auto;
+  	-ms-overflow-x: auto;
+  	overflow-x: hidden;
+  	-ms-overflow-x: hidden;
 	}
 }
 
