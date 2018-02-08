@@ -54,14 +54,13 @@ main {
 	background: url("../images/moto.jpeg") center no-repeat;
 	background-size: cover;
 	height: 25rem;
-	width: 100%;
 }
 
 .title {
 	margin-top: 9rem;
 	width: 20rem;
 	font-weight: bold;
-	padding: 2rem 0 2rem 3rem;
+	padding: 2rem 3rem 2rem 3rem;
 }
 
 .smalltitle {
@@ -98,7 +97,7 @@ main {
  	display: flex;
  	justify-content: space-between;
  	flex-wrap: wrap;
- 	max-width: 960px;
+ 	/*max-width: 960px;*/
  }
 
  .product {
@@ -153,24 +152,80 @@ main {
 
  	/* Tablet Size */
 
- @media only screen and (max-width: 1024px) {
- 		.spreadmenu {
- 			display: none;
- 		}
+@media only screen and (max-width: 1024px) {
 
- 		.shortmenu {
- 			display: inherit;
- 		}
+	.spreadmenu {
+	 	display: none;
+	}
 
- 		nav .inside {
- 			justify-content: center;
- 		}
- }
+	.shortmenu {
+	 	display: inherit;
+	}
+
+	nav .inside {
+	 	justify-content: center;
+	}
+
+	.product {
+	 	width: 47%;
+	}
+
+	.extratablet {
+	 	display: none;
+	}
+}
 
  	/* Phone Size */
 
- @media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
 
- }
+ 	.banner {
+		height: 15rem;
+	}
+
+	.title {
+	margin-top: 10rem;
+	width: 100%;
+	font-weight: bold;
+	padding: 1rem 0 1rem 2rem;
+	}
+
+	.smalltitle {
+	font-size: 0.77rem;
+	}
+
+	.bigtitle {
+	font-size: 1rem;
+	}
+
+	.extraphone {
+		display: none;
+	}
+
+	.product {
+		width: 90%;
+	}
+
+	.inside {
+		width: 100%;
+	}
+
+	.homepage .inside {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.infobox {
+		width: 90%;
+	}
+
+	.top {
+		margin-bottom: 0.5rem;
+	}
+
+	footer {
+		text-align: center;
+	}
+}
 
  
