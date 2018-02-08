@@ -80,11 +80,16 @@ main {
  	justify-content: space-between;
  }
 
- nav {
+ .spreadmenu,
+ .shortmenu {
  	background-color: firebrick;
  	padding-top: 0.75rem;
  	padding-bottom: 0.75rem;
  	width: 100%;
+ }
+
+ .shortmenu {
+ 	display: none;
  }
 
  	/* Homepage Content */
@@ -149,7 +154,17 @@ main {
  	/* Tablet Size */
 
  @media only screen and (max-width: 1024px) {
+ 		.spreadmenu {
+ 			display: none;
+ 		}
 
+ 		.shortmenu {
+ 			display: inherit;
+ 		}
+
+ 		nav .inside {
+ 			justify-content: center;
+ 		}
  }
 
  	/* Phone Size */
