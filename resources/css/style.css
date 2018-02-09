@@ -28,7 +28,7 @@ footer,
 header .inside {
 	display: flex;
 	align-items: center;
-	padding: 0.66rem 0;
+	padding: .66rem 0 .66rem 0.5rem;
 }
 
 header span {
@@ -37,16 +37,9 @@ header span {
 
 header img {
 	height: 1.5rem;
-	padding-left: 0.5rem;
 	padding-right: 1rem;
 }
 
-	/* Main Content */
-
-main {
-	display: flex;
-	flex-direction: column;
-}
 
  	/* Banner */
 
@@ -57,18 +50,19 @@ main {
 }
 
 .title {
-	margin-top: 9rem;
+	position: relative;
+	top: 9rem;
 	width: 20rem;
 	font-weight: bold;
-	padding: 2rem 3rem 2rem 3rem;
+	padding: 2rem 3rem;
 }
 
-.smalltitle {
+.title h4 {
 	font-size: 1rem;
 	padding-bottom: 0.25rem;
 }
 
-.bigtitle {
+.title h1 {
 	font-size: 2rem;
 }
 
@@ -188,17 +182,17 @@ main {
 	}
 
 	.title {
-	margin-top: 10rem;
+	top: 10rem;
 	width: inherit;
 	font-weight: bold;
 	padding: 1rem 0 1rem 2rem;
 	}
 
-	.smalltitle {
+	.title h4 {
 	font-size: 0.77rem;
 	}
 
-	.bigtitle {
+	.title h1 {
 	font-size: 1rem;
 	}
 
